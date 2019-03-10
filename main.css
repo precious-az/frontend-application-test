@@ -1,0 +1,249 @@
+body {
+	padding: 0;
+	margin: 0;
+}
+
+.container {
+	height: 100vh;
+
+}
+
+.flex-grid {
+	display: flex;
+	flex-direction: row;
+	width: 100%;
+	height: 100%;
+	flex: 6;
+}
+
+.nav-menu {
+	list-style: none;
+	padding: 0;
+	margin: 0;
+	display: flex;
+	flex-direction: column;
+	margin-left: 20%;
+}
+
+.nav-menu>li {
+	padding-top: 20px;
+	color: #f0f0f0;
+}
+
+.nav-menu>li>i {
+	padding-right: 20px;
+}
+
+.sidebar {
+	background: #101010;
+	border: 1px solid #101010;
+	height: 100%;
+	width: 15%;
+	display: flex;
+	flex-direction: column;
+}
+
+.section {
+	flex: auto;
+	display: flex;
+	flex-direction: row;
+}
+
+.text-white {
+	color: #ffffff;
+}
+
+.header {
+	display: flex;
+	margin-left: 20%;
+	margin-top: 15%;
+}
+
+.top-nav-menu {
+	display: flex;
+	flex-direction: column;
+	flex: auto;
+	justify-content: space-between;
+	margin-top: 30%;
+}
+
+.full-height {
+	height: 100%;
+}
+
+.settings-div {
+	margin-bottom: 30%;
+	margin-left: 20%;
+}
+
+.settings-div>.text-white i {
+	padding-right: 20px;
+}
+
+.main {
+	width: 100%;
+	height: 100%;
+	background: #f5f5f5;
+}
+
+.bg-white {
+	background: #ffffff;
+	border: #ffffff;
+}
+
+.top-main {
+	display: flex;
+	flex-direction: row;
+}
+
+.search-container {
+	width: 80%;
+	padding: 20px;
+	display: flex;
+	justify-content: center;
+}
+
+input[type=text] {
+	width: 70%;
+	border: 0;
+}
+
+.search-form {
+	width: 60%;
+	border-radius: 10%;
+}
+
+.search-form>button {
+	border: 0;
+	background: none;
+}
+
+.search-div {
+	border: 1px solid #000000;
+	padding: 10px;
+	border-radius: 10px;
+	width: 50%;
+}
+
+.profile {
+	display: flex;
+	flex-direction: row;
+	justify-content: center;
+	align-items: center;
+}
+
+.image-rounded {
+	border-radius: 50%;
+	width: 30px;
+	margin-right: 10px;
+}
+
+.body-main {
+	margin-top: 20px;
+	margin-left: 30px;
+	margin-right: 30px;
+
+	padding-left: 10%;
+	padding-right: 10%;
+	padding-top: 20px;
+}
+
+.nav-link {
+	padding-bottom: 10px;
+}
+
+.ticket-datetime {
+	display: flex;
+	flex-direction: row;
+	width: 60%;
+
+}
+
+.title {
+	font-size: 25px;
+}
+
+.datetime {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	padding-left: 10px;
+}
+
+.btn-action {
+	display: flex;
+	flex-direction: row;
+	align-items: flex-end;
+	/* margin-left: 50px; */
+	/* align-self: flex-end; */
+}
+
+.btn-action>button {
+	margin-left: 10px;
+	border-radius: 10px;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+
+.print-action {
+	display: flex;
+	flex-direction: row;
+	padding-top: 20px;
+	padding-bottom: 20px;
+}
+
+.box-container {
+	display: flex;
+	flex-direction: row;
+}
+
+.box-left {
+	width: 60%;
+	padding: 10px;
+}
+
+.box-right: {
+	width: 40%;
+}
+
+.install-div {
+	border: 1px solid red;
+	padding: 5%;
+}
+
+.install-datetime {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	padding-top: 30px;
+}
+
+.bold-date {
+	font-size: 40px;
+}
+
+.small-title {
+	font-size: 20px;
+}
+
+.smaller-title {
+	font-size: 10px;
+}
+
+.table-div {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	border: 1px solid red;
+	padding: 5%;
+}
+
+.text-bold {
+	font-weight: bold;
+	padding-bottom: 10px;
+}
+
+.img-txt {
+	display: flex;
+	flex-direction: row; 
+}
