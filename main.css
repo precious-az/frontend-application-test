@@ -1,6 +1,7 @@
 body {
 	padding: 0;
 	margin: 0;
+	font-family: 'Ubuntu Condensed', sans-serif;
 }
 
 .container {
@@ -14,6 +15,10 @@ body {
 	width: 100%;
 	height: 100%;
 	flex: 6;
+}
+
+.text-dim {
+	color: #818181;
 }
 
 .nav-menu {
@@ -82,9 +87,9 @@ body {
 
 .main {
 	width: 100%;
-	height: 100%;
+	/* height: 100%; */
 	/* background: #f5f5f5; */
-	background: #9e979733;
+	background: #f3f1f1;
 }
 
 .bg-white {
@@ -103,16 +108,19 @@ body {
 	width: 80%;
 	padding: 20px;
 	display: flex;
-	justify-content: center;
+	justify-content: flex-start;
+	padding-left: 30px;
 }
 
 input[type=text] {
-	width: 70%;
+	width: 90%;
 	border: 0;
+	background:#f3f1f1;
 }
 
 .search-form {
-	width: 60%;
+	width: 100%;
+	/* width: 60%; */
 	border-radius: 10%;
 }
 
@@ -122,10 +130,11 @@ input[type=text] {
 }
 
 .search-div {
-	border: 1px solid #000000;
+	border: 2px solid #a5a5a5;
 	padding: 10px;
 	border-radius: 10px;
-	width: 50%;
+	width: 80%;
+	background:#f3f1f1;
 }
 
 .profile {
@@ -212,12 +221,12 @@ input[type=text] {
 	width: 40%;
 	display: flex;
 	flex-direction: column;
-	/* margin-left: 30%; */
+	margin-left: 5%;
 }
 
 .install-div {
-	border: 1px solid #9e9797;
-
+	border: 2px solid #e7e7e7;
+	border-radius: 5px;
 	padding: 5%;
 }
 
@@ -244,8 +253,8 @@ input[type=text] {
 	display: flex;
 	flex-direction: row;
 	justify-content: space-between;
-	border: 1px solid #9e9797;
-
+	border: 2px solid #e7e7e7;
+	border-radius: 5px;
 	padding: 5%;
 }
 
@@ -264,8 +273,8 @@ input[type=text] {
 	display: flex;
 	flex-direction: column;
 	justify-content: space-around;
-	border: 1px solid #9e9797;
-
+	border: 2px solid #e7e7e7;
+	border-radius: 5px;
 	margin-top: 10px;
 	/* flex: auto; */
 	width: 100%;
@@ -285,8 +294,8 @@ input[type=text] {
 	padding: 15px;
 	display: flex;
 	flex-direction: column;
-	border: 1px solid #9e9797;
-
+	border: 2px solid #e7e7e7;
+	border-radius: 5px;
 	margin-top: 10px;
 	width: 100%;
 	margin-bottom: 20px;
@@ -300,10 +309,13 @@ input[type=text] {
 	padding: 10px;
 	display: flex;
 	flex-direction: column;
-	border: 1px solid #9e9797;
-
+	border: 2px solid #e7e7e7;
+	border-radius: 5px;
 	margin-top: 10px;
 	width: 100%;
 	margin-bottom: 20px;
+}
 
+.note-container > div {
+	padding-bottom: 20px;
 }
